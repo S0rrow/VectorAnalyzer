@@ -29,6 +29,10 @@ def main():
     print('median: ', np.median(lengths))
     print('std: ', np.std(lengths))
 
+    # find index of max length vector
+    max_index = lengths.index(max(lengths))
+    print(f"max length vector index: {max_index}")
+
     # plot the lengths
     # max size of the vector is 1000000
     plt.plot(lengths)
@@ -36,6 +40,7 @@ def main():
     plt.ylabel('vector length')
     plt.title('vector length analysis')
     plt.show()
+
 
 
     
