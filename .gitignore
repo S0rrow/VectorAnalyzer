@@ -16,3 +16,4 @@ gradle-app.setting
 repo
 
 *.csv
+*.java
